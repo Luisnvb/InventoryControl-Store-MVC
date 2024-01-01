@@ -32,7 +32,7 @@ Navegador web moderno
 1. Clona este repositorio en tu máquina local.
 
 ```bash 
-git clone https://github.com/tuusuario/nombre-del-repo.git
+git clone https://github.com/Luisnvb/InventoryControl-Store-MVC.git
 ```
 
 1. Importa la base de datos proporcionada en el archivo database.sql en tu servidor MySQL.
