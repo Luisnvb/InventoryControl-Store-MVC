@@ -1,0 +1,109 @@
+.rojo {
+	background: tomato;
+}
+
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+body {
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+form {
+	max-width: 400px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	color: #333;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	color: #333;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+br {
+	margin-bottom: 12px;
+}
+
+/* Estilos generales de la tabla */
+table {
+	width: 100%;
+	margin-bottom: 1rem;
+	color: #212529;
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 1px solid #dee2e6;
+}
+
+/* Encabezados de columna */
+th {
+	padding: 0.75rem;
+	text-align: left;
+	border-bottom: 2px solid #dee2e6;
+	background-color: #007bff;
+	color: #fff;
+}
+
+/* Filas alternadas */
+tbody tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+/* Celdas de datos */
+td {
+	padding: 0.75rem;
+}
+
+/* Estilos para el hover en las filas */
+tbody tr:hover {
+	background-color: #e9ecef;
+}	
+
+/* Estilos para la tabla responsiva en dispositivos pequeños */
+@media (max-width: 767px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+}
